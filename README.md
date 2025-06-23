@@ -5,6 +5,7 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 ## Top Interview 150 Problem List
 
 ### Section 1: Arrays & Strings
+
 - Merge Sorted Array
 - Remove Element
 - Remove Duplicates from Sorted Array
@@ -31,6 +32,7 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 - Text Justification
 
 ### Section 2: Two Pointers & Sliding Window
+
 - Valid Palindrome
 - Is Subsequence
 - Two Sum II - Input Array Is Sorted
@@ -42,6 +44,7 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 - Minimum Window Substring
 
 ### Section 3: Matrix & 2D Arrays
+
 - Valid Sudoku
 - Spiral Matrix
 - Rotate Image
@@ -49,6 +52,7 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 - Game of Life
 
 ### Section 4: Hash Maps & Sets
+
 - Ransom Note
 - Isomorphic Strings
 - Word Pattern
@@ -60,12 +64,14 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 - Longest Consecutive Sequence
 
 ### Section 5: Intervals
+
 - Summary Ranges
 - Merge Intervals
 - Insert Interval
 - Minimum Number of Arrows to Burst Balloons
 
 ### Section 6: Stack & Queue
+
 - Valid Parentheses
 - Simplify Path
 - Min Stack
@@ -73,6 +79,7 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 - Basic Calculator
 
 ### Section 7: Linked Lists
+
 - Linked List Cycle
 - Add Two Numbers
 - Merge Two Sorted Lists
@@ -86,6 +93,7 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 - LRU Cache
 
 ### Section 8: Trees - Basic
+
 - Maximum Depth of Binary Tree
 - Same Tree
 - Invert Binary Tree
@@ -102,17 +110,20 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 - Lowest Common Ancestor of a Binary Tree
 
 ### Section 9: Trees - Level Order & Views
+
 - Binary Tree Right Side View
 - Average of Levels in Binary Tree
 - Binary Tree Level Order Traversal
 - Binary Tree Zigzag Level Order Traversal
 
 ### Section 10: Binary Search Trees
+
 - Minimum Absolute Difference in BST
 - Kth Smallest Element in a BST
 - Validate Binary Search Tree
 
 ### Section 11: Graphs - Basic
+
 - Number of Islands
 - Surrounded Regions
 - Clone Graph
@@ -121,16 +132,19 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 - Course Schedule II
 
 ### Section 12: Graphs - Advanced
+
 - Snakes and Ladders
 - Minimum Genetic Mutation
 - Word Ladder
 
 ### Section 13: Tries
+
 - Implement Trie (Prefix Tree)
 - Design Add and Search Words Data Structure
 - Word Search II
 
 ### Section 14: Backtracking
+
 - Letter Combinations of a Phone Number
 - Combinations
 - Permutations
@@ -140,16 +154,19 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 - Word Search
 
 ### Section 15: Divide & Conquer
+
 - Convert Sorted Array to Binary Search Tree
 - Sort List
 - Construct Quad Tree
 - Merge k Sorted Lists
 
 ### Section 16: Kadane's Algorithm
+
 - Maximum Subarray
 - Maximum Sum Circular Subarray
 
 ### Section 17: Binary Search
+
 - Search Insert Position
 - Search a 2D Matrix
 - Find Peak Element
@@ -159,12 +176,14 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 - Median of Two Sorted Arrays
 
 ### Section 18: Heap & Priority Queue
+
 - Kth Largest Element in an Array
 - IPO
 - Find K Pairs with Smallest Sums
 - Find Median from Data Stream
 
 ### Section 19: Bit Manipulation
+
 - Add Binary
 - Reverse Bits
 - Number of 1 Bits
@@ -173,6 +192,7 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 - Bitwise AND of Numbers Range
 
 ### Section 20: Math
+
 - Palindrome Number
 - Plus One
 - Factorial Trailing Zeroes
@@ -181,6 +201,7 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 - Max Points on a Line
 
 ### Section 21: 1D Dynamic Programming
+
 - Climbing Stairs
 - House Robber
 - Word Break
@@ -188,6 +209,7 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 - Longest Increasing Subsequence
 
 ### Section 22: 2D Dynamic Programming
+
 - Triangle
 - Minimum Path Sum
 - Unique Paths II
@@ -236,6 +258,7 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 ## Package Organization
 
 Each section has its own package following the Top Interview 150 curriculum:
+
 - **`section1_arrays_strings`**: Arrays and strings problems
 - **`section2_two_pointers_sliding_window`**: Two pointers and sliding window techniques
 - **`section3_matrix_2d_arrays`**: Matrix and 2D array problems
