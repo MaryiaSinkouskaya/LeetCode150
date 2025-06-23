@@ -1,4 +1,4 @@
-package arrays;
+package section1_arrays_strings;
 
 class MajorityElement {
     public int majorityElement(int[] nums) {

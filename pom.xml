@@ -89,7 +89,7 @@
     <profiles>
         <!-- Profile for running all tests -->
         <profile>
-            <id>run-all-tests</id>
+            <id>run_all_tests</id>
             <build>
                 <plugins>
                     <plugin>
@@ -105,9 +105,9 @@
             </build>
         </profile>
 
-        <!-- Profile for running specific test category -->
+        <!-- Profile for running section 1 tests -->
         <profile>
-            <id>run-arrays-tests</id>
+            <id>run_section1_tests</id>
             <build>
                 <plugins>
                     <plugin>
@@ -115,7 +115,7 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
                             <includes>
-                                <include>**/arrays/*Test.java</include>
+                                <include>**/section1_arrays_strings/*Test.java</include>
                             </includes>
                         </configuration>
                     </plugin>
@@ -123,9 +123,9 @@
             </build>
         </profile>
 
-        <!-- Profile for running strings tests -->
+        <!-- Profile for running section 2 tests -->
         <profile>
-            <id>run-strings-tests</id>
+            <id>run_section2_tests</id>
             <build>
                 <plugins>
                     <plugin>
@@ -133,7 +133,7 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
                             <includes>
-                                <include>**/strings/*Test.java</include>
+                                <include>**/section2_two_pointers_sliding_window/*Test.java</include>
                             </includes>
                         </configuration>
                     </plugin>
@@ -141,9 +141,9 @@
             </build>
         </profile>
 
-        <!-- Profile for running linkedLists tests -->
+        <!-- Profile for running section 7 tests -->
         <profile>
-            <id>run-linkedLists-tests</id>
+            <id>run_section7_tests</id>
             <build>
                 <plugins>
                     <plugin>
@@ -151,7 +151,7 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
                             <includes>
-                                <include>**/linkedlists/*Test.java</include>
+                                <include>**/section7_linked_lists/*Test.java</include>
                             </includes>
                         </configuration>
                     </plugin>
@@ -159,9 +159,9 @@
             </build>
         </profile>
 
-        <!-- Profile for running trees tests -->
+        <!-- Profile for running section 8 tests -->
         <profile>
-            <id>run-trees-tests</id>
+            <id>run_section8_tests</id>
             <build>
                 <plugins>
                     <plugin>
@@ -169,7 +169,7 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
                             <includes>
-                                <include>**/trees/*Test.java</include>
+                                <include>**/section8_trees_basic/*Test.java</include>
                             </includes>
                         </configuration>
                     </plugin>
@@ -177,9 +177,9 @@
             </build>
         </profile>
 
-        <!-- Profile for running dynamic programming tests -->
+        <!-- Profile for running section 21 tests -->
         <profile>
-            <id>run-dp-tests</id>
+            <id>run_section21_tests</id>
             <build>
                 <plugins>
                     <plugin>
@@ -187,7 +187,7 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
                             <includes>
-                                <include>**/dynamicprogramming/*Test.java</include>
+                                <include>**/section21_1d_dynamic_programming/*Test.java</include>
                             </includes>
                         </configuration>
                     </plugin>

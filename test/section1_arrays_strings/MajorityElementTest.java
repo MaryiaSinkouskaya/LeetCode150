@@ -1,4 +1,4 @@
-package arrays;
+package section1_arrays_strings;
 
 import org.junit.Test;
 import org.junit.Assert;

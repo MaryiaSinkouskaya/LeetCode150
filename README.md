@@ -4,9 +4,9 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 
 ## Top Interview 150 Problem List
 
-### Arrays
-- Remove Element
+### Section 1: Arrays & Strings
 - Merge Sorted Array
+- Remove Element
 - Remove Duplicates from Sorted Array
 - Remove Duplicates from Sorted Array II
 - Majority Element
@@ -19,233 +19,184 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 - Insert Delete GetRandom O(1)
 - Product of Array Except Self
 - Gas Station
-
-### Two Pointers
-- Container With Most Water
+- Candy
 - Trapping Rain Water
+- Roman to Integer
+- Integer to Roman
+- Length of Last Word
+- Longest Common Prefix
+- Reverse Words in a String
+- Zigzag Conversion
+- Find the Index of the First Occurrence in a String
+- Text Justification
+
+### Section 2: Two Pointers & Sliding Window
+- Valid Palindrome
+- Is Subsequence
 - Two Sum II - Input Array Is Sorted
+- Container With Most Water
 - 3Sum
-- 3Sum Closest
-- 4Sum
-- Move Zeroes
-- Sort Colors
-- Minimum Window Substring
-- Substring with Concatenation of All Words
 - Minimum Size Subarray Sum
-
-### Sliding Window
 - Longest Substring Without Repeating Characters
-- Longest Repeating Character Replacement
-- Permutation in String
-- Find All Anagrams in a String
+- Substring with Concatenation of All Words
 - Minimum Window Substring
-- Sliding Window Maximum
-- Longest Substring with At Most Two Distinct Characters
-- Longest Substring with At Most K Distinct Characters
-- Fruit Into Baskets
-- Maximum Points You Can Obtain from Cards
-- Subarray Product Less Than K
-- Maximum Average Subarray I
 
-### Stack
+### Section 3: Matrix & 2D Arrays
+- Valid Sudoku
+- Spiral Matrix
+- Rotate Image
+- Set Matrix Zeroes
+- Game of Life
+
+### Section 4: Hash Maps & Sets
+- Ransom Note
+- Isomorphic Strings
+- Word Pattern
+- Valid Anagram
+- Group Anagrams
+- Two Sum
+- Happy Number
+- Contains Duplicate II
+- Longest Consecutive Sequence
+
+### Section 5: Intervals
+- Summary Ranges
+- Merge Intervals
+- Insert Interval
+- Minimum Number of Arrows to Burst Balloons
+
+### Section 6: Stack & Queue
 - Valid Parentheses
+- Simplify Path
 - Min Stack
 - Evaluate Reverse Polish Notation
-- Generate Parentheses
-- Daily Temperatures
-- Car Fleet
-- Largest Rectangle in Histogram
-- Trapping Rain Water
 - Basic Calculator
-- Basic Calculator II
-- Remove K Digits
-- Decode String
-- 132 Pattern
-- Next Greater Element I
-- Next Greater Element II
-- Online Stock Span
-- Asteroid Collision
-- Simplify Path
-- Valid Parentheses
-- Remove Invalid Parentheses
-- Longest Valid Parentheses
-- Score of Parentheses
 
-### Binary Search
-- Binary Search
-- Search a 2D Matrix
-- Koko Eating Bananas
-- Find Minimum in Rotated Sorted Array
-- Search in Rotated Sorted Array
-- Time Based Key-Value Store
-- Median of Two Sorted Arrays
-- Find First and Last Position of Element in Sorted Array
-- Search Insert Position
-- Valid Perfect Square
-- Sqrt(x)
-- Guess Number Higher or Lower
-
-### Linked List
-- Reverse Linked List
-- Merge Two Sorted Lists
-- Reorder List
-- Remove Nth Node From End of List
-- Copy List with Random Pointer
-- Add Two Numbers
+### Section 7: Linked Lists
 - Linked List Cycle
-- Find the Duplicate Number
-- LRU Cache
-- Merge k Sorted Lists
+- Add Two Numbers
+- Merge Two Sorted Lists
+- Copy List with Random Pointer
+- Reverse Linked List II
 - Reverse Nodes in k-Group
-- Remove Duplicates from Sorted List
+- Remove Nth Node From End of List
 - Remove Duplicates from Sorted List II
 - Rotate List
 - Partition List
+- LRU Cache
 
-### Trees
+### Section 8: Trees - Basic
 - Maximum Depth of Binary Tree
 - Same Tree
 - Invert Binary Tree
-- Binary Tree Level Order Traversal
-- Binary Tree Level Order Traversal II
-- Binary Tree Zigzag Level Order Traversal
+- Symmetric Tree
 - Construct Binary Tree from Preorder and Inorder Traversal
 - Construct Binary Tree from Inorder and Postorder Traversal
-- Populating Next Right Pointers in Each Node
 - Populating Next Right Pointers in Each Node II
-- Lowest Common Ancestor of a Binary Tree
-- Serialize and Deserialize Binary Tree
-- Binary Tree Maximum Path Sum
-- Sum Root to Leaf Numbers
+- Flatten Binary Tree to Linked List
 - Path Sum
-- Path Sum II
-- Binary Tree Right Side View
+- Sum Root to Leaf Numbers
+- Binary Tree Maximum Path Sum
+- Binary Search Tree Iterator
+- Count Complete Tree Nodes
+- Lowest Common Ancestor of a Binary Tree
 
-### Tries
+### Section 9: Trees - Level Order & Views
+- Binary Tree Right Side View
+- Average of Levels in Binary Tree
+- Binary Tree Level Order Traversal
+- Binary Tree Zigzag Level Order Traversal
+
+### Section 10: Binary Search Trees
+- Minimum Absolute Difference in BST
+- Kth Smallest Element in a BST
+- Validate Binary Search Tree
+
+### Section 11: Graphs - Basic
+- Number of Islands
+- Surrounded Regions
+- Clone Graph
+- Evaluate Division
+- Course Schedule
+- Course Schedule II
+
+### Section 12: Graphs - Advanced
+- Snakes and Ladders
+- Minimum Genetic Mutation
+- Word Ladder
+
+### Section 13: Tries
 - Implement Trie (Prefix Tree)
 - Design Add and Search Words Data Structure
 - Word Search II
-- Replace Words
-- Design Search Autocomplete System
-- Stream of Characters
 
-### Heap/Priority Queue
-- Kth Largest Element in an Array
-- Find Median from Data Stream
-- Merge k Sorted Lists
-- Top K Frequent Elements
-- Find K Pairs with Smallest Sums
-- Reorganize String
-- Task Scheduler
-
-### Backtracking
-- Subsets
-- Combination Sum
-- Combination Sum II
-- Permutations
-- Permutations II
-- Word Search
-- Palindrome Partitioning
+### Section 14: Backtracking
 - Letter Combinations of a Phone Number
-- N-Queens
+- Combinations
+- Permutations
+- Combination Sum
+- N-Queens II
+- Generate Parentheses
+- Word Search
 
-### Graphs
-- Number of Islands
-- Clone Graph
-- Max Area of Island
-- Pacific Atlantic Water Flow
-- Surrounded Regions
-- Rotting Oranges
-- Walls and Gates
-- Course Schedule
-- Course Schedule II
-- Redundant Connection
-- Number of Connected Components in an Undirected Graph
-- Graph Valid Tree
-- Word Ladder
+### Section 15: Divide & Conquer
+- Convert Sorted Array to Binary Search Tree
+- Sort List
+- Construct Quad Tree
+- Merge k Sorted Lists
 
-### Advanced Graphs
-- Reconstruct Itinerary
-- Min Cost to Connect All Points
-- Network Delay Time
-- Swim in Rising Water
-- Alien Dictionary
-- Cheapest Flights Within K Stops
+### Section 16: Kadane's Algorithm
+- Maximum Subarray
+- Maximum Sum Circular Subarray
 
-### 1-D Dynamic Programming
-- Climbing Stairs
-- Min Cost Climbing Stairs
-- House Robber
-- House Robber II
-- Longest Palindromic Substring
-- Palindromic Substrings
+### Section 17: Binary Search
+- Search Insert Position
+- Search a 2D Matrix
+- Find Peak Element
+- Search in Rotated Sorted Array
+- Find First and Last Position of Element in Sorted Array
+- Find Minimum in Rotated Sorted Array
+- Median of Two Sorted Arrays
 
-### 2-D Dynamic Programming
-- Longest Common Subsequence
-- Best Time to Buy and Sell Stock with Cooldown
-- Coin Change
-- Coin Change II
-- Target Sum
-- Interleaving String
-- Longest Increasing Path in a Matrix
-- Distinct Subsequences
-- Edit Distance
-- Burst Balloons
-- Regular Expression Matching
-- Wildcard Matching
-- Longest Valid Parentheses
-- Unique Paths
-- Unique Paths II
-- Minimum Path Sum
-- Triangle
-
-### Greedy
-- Jump Game
-- Jump Game II
-- Gas Station
-- Hand of Straights
-- Merge Triplets to Form Target Triplet
-- Partition Labels
-- Valid Parenthesis String
-- Lemonade Change
-
-### Intervals
-- Insert Interval
-- Merge Intervals
-- Non-overlapping Intervals
-- Meeting Rooms
-- Meeting Rooms II
-- Minimum Interval to Include Each Query
-
-### Math & Geometry
-- Rotate Image
-- Spiral Matrix
-- Set Matrix Zeroes
-- Happy Number
-- Plus One
-- Pow(x, n)
-- Multiply Strings
-- Detect Squares
-- Single Number
-- Number of 1 Bits
-- Counting Bits
-- Reverse Bits
-- Missing Number
-
-### Bit Manipulation
-- Sum of Two Integers
-- Reverse Integer
-- Add Binary
-- Counting Bits
-- Missing Number
-
-### Design
-- LRU Cache
-- LFU Cache
+### Section 18: Heap & Priority Queue
+- Kth Largest Element in an Array
+- IPO
+- Find K Pairs with Smallest Sums
 - Find Median from Data Stream
-- Design Twitter
-- Design Hit Counter
-- Design Underground System
+
+### Section 19: Bit Manipulation
+- Add Binary
+- Reverse Bits
+- Number of 1 Bits
+- Single Number
+- Single Number II
+- Bitwise AND of Numbers Range
+
+### Section 20: Math
+- Palindrome Number
+- Plus One
+- Factorial Trailing Zeroes
+- Sqrt(x)
+- Pow(x, n)
+- Max Points on a Line
+
+### Section 21: 1D Dynamic Programming
+- Climbing Stairs
+- House Robber
+- Word Break
+- Coin Change
+- Longest Increasing Subsequence
+
+### Section 22: 2D Dynamic Programming
+- Triangle
+- Minimum Path Sum
+- Unique Paths II
+- Longest Palindromic Substring
+- Interleaving String
+- Edit Distance
+- Best Time to Buy and Sell Stock III
+- Best Time to Buy and Sell Stock IV
+- Maximal Square
 
 ---
 
@@ -255,51 +206,113 @@ This repository contains solutions for the LeetCode Top Interview 150 problems o
 ├── README.md
 ├── pom.xml                           # Maven configuration
 ├── src/
-│   ├── arrays/                       # Package: arrays
-│   ├── strings/                      # Package: strings
-│   ├── linkedLists/                 # Package: linkedlists
-│   ├── trees/                        # Package: trees
-│   ├── graphs/                       # Package: graphs
-│   ├── dynamic-programming/          # Package: dynamicprogramming
-│   ├── binary-search/                # Package: binarysearch
-│   ├── two-pointers/                 # Package: twopointers
-│   ├── sliding-window/               # Package: slidingwindow
-│   ├── stack/                        # Package: stack
-│   ├── heap/                         # Package: heap
-│   ├── greedy/                       # Package: greedy
-│   ├── backtracking/                 # Package: backtracking
-│   ├── math/                         # Package: math
-│   └── design/                       # Package: design
+│   ├── section1_arrays_strings/      # Package: section1_arrays_strings
+│   ├── section2_two_pointers_sliding_window/ # Package: section2_two_pointers_sliding_window
+│   ├── section3_matrix_2d_arrays/    # Package: section3_matrix_2d_arrays
+│   ├── section4_hash_maps_sets/      # Package: section4_hash_maps_sets
+│   ├── section5_intervals/           # Package: section5_intervals
+│   ├── section6_stack_queue/         # Package: section6_stack_queue
+│   ├── section7_linked_lists/        # Package: section7_linked_lists
+│   ├── section8_trees_basic/         # Package: section8_trees_basic
+│   ├── section9_trees_level_order_views/ # Package: section9_trees_level_order_views
+│   ├── section10_binary_search_trees/ # Package: section10_binary_search_trees
+│   ├── section11_graphs_basic/       # Package: section11_graphs_basic
+│   ├── section12_graphs_advanced/    # Package: section12_graphs_advanced
+│   ├── section13_tries/              # Package: section13_tries
+│   ├── section14_backtracking/       # Package: section14_backtracking
+│   ├── section15_divide_conquer/     # Package: section15_divide_conquer
+│   ├── section16_kadanes_algorithm/  # Package: section16_kadanes_algorithm
+│   ├── section17_binary_search/      # Package: section17_binary_search
+│   ├── section18_heap_priority_queue/ # Package: section18_heap_priority_queue
+│   ├── section19_bit_manipulation/   # Package: section19_bit_manipulation
+│   ├── section20_math/               # Package: section20_math
+│   ├── section21_1d_dynamic_programming/ # Package: section21_1d_dynamic_programming
+│   └── section22_2d_dynamic_programming/ # Package: section22_2d_dynamic_programming
 ├── test/
-│   └── arrays/                       # Test files mirror src structure
+│   └── section1_arrays_strings/      # Test files mirror src structure
 └── solutions.md
 ```
 
 ## Package Organization
 
-Each category has its own package:
-- **`arrays`**: Array manipulation problems
-- **`strings`**: String operations problems
-- **`linkedlists`**: Linked list problems
-- **`trees`**: Tree and binary tree problems
-- **`graphs`**: Graph algorithm problems
-- **`dynamicprogramming`**: Dynamic programming problems
-- **`binarysearch`**: Binary search problems
-- **`twopointers`**: Two pointer technique problems
-- **`slidingwindow`**: Sliding window problems
-- **`stack`**: Stack-based problems
-- **`heap`**: Heap and priority queue problems
-- **`greedy`**: Greedy algorithm problems
-- **`backtracking`**: Backtracking problems
-- **`math`**: Mathematical problems
-- **`design`**: System design problems
+Each section has its own package following the Top Interview 150 curriculum:
+- **`section1_arrays_strings`**: Arrays and strings problems
+- **`section2_two_pointers_sliding_window`**: Two pointers and sliding window techniques
+- **`section3_matrix_2d_arrays`**: Matrix and 2D array problems
+- **`section4_hash_maps_sets`**: Hash maps and sets problems
+- **`section5_intervals`**: Interval-related problems
+- **`section6_stack_queue`**: Stack and queue problems
+- **`section7_linked_lists`**: Linked list problems
+- **`section8_trees_basic`**: Basic tree operations
+- **`section9_trees_level_order_views`**: Tree traversal and views
+- **`section10_binary_search_trees`**: Binary search tree problems
+- **`section11_graphs_basic`**: Basic graph algorithms
+- **`section12_graphs_advanced`**: Advanced graph problems
+- **`section13_tries`**: Trie data structure problems
+- **`section14_backtracking`**: Backtracking algorithms
+- **`section15_divide_conquer`**: Divide and conquer problems
+- **`section16_kadanes_algorithm`**: Kadane's algorithm problems
+- **`section17_binary_search`**: Binary search variations
+- **`section18_heap_priority_queue`**: Heap and priority queue problems
+- **`section19_bit_manipulation`**: Bit manipulation problems
+- **`section20_math`**: Mathematical problems
+- **`section21_1d_dynamic_programming`**: 1D dynamic programming
+- **`section22_2d_dynamic_programming`**: 2D dynamic programming
 
 ## How to Use
 
-1. Navigate to the appropriate category folder
-2. Find the problem file (e.g., `RemoveElement.java`)
-3. Each file contains a class with the problem name and the required method signature
-4. Implement your solution in the provided method
+### Running Tests
+
+```bash
+# Run all tests
+mvn test
+
+# Run tests for specific sections
+mvn test -Psection1_arrays_strings
+mvn test -Psection2_two_pointers_sliding_window
+mvn test -Psection7_linked_lists
+mvn test -Psection8_trees_basic
+mvn test -Psection21_1d_dynamic_programming
+
+# Run tests with profile
+mvn test -Prun_section1_tests
+mvn test -Prun_section2_tests
+mvn test -Prun_section7_tests
+mvn test -Prun_section8_tests
+mvn test -Prun_section21_tests
+```
+
+### Compiling
+
+```bash
+# Compile all source files
+mvn compile
+
+# Clean and compile
+mvn clean compile
+```
+
+### Project Structure
+
+Each problem follows this template:
+
+```java
+package section1_arrays_strings; // Package matches directory
+
+class ProblemName {
+    public ReturnType methodName(Parameters params) {
+        // Your solution here
+        return defaultValue;
+    }
+}
+```
+
+### Adding New Problems
+
+1. Create a new Java file in the appropriate section directory
+2. Use the correct package declaration (see package organization above)
+3. Follow the naming convention: `ProblemName.java`
+4. Add corresponding test file in the `test/` directory
 
 ## Building and Testing with Maven
 
@@ -327,22 +340,22 @@ mvn package
 
 ```bash
 # Run only array tests
-mvn test -Prun-arrays-tests
+mvn test -Prun_arrays_tests
 
 # Run only string tests
-mvn test -Prun-strings-tests
+mvn test -Prun_strings_tests
 
 # Run only linked list tests
-mvn test -Prun-linked-lists-tests
+mvn test -Prun_linked_lists_tests
 
 # Run only tree tests
-mvn test -Prun-trees-tests
+mvn test -Prun_trees_tests
 
 # Run only dynamic programming tests
-mvn test -Prun-dp-tests
+mvn test -Prun_dp_tests
 
 # Run all tests
-mvn test -Prun-all-tests
+mvn test -Prun_all_tests
 ```
 
 ### Running Individual Tests
@@ -355,7 +368,7 @@ mvn test -Dtest=RemoveElementTest
 mvn test -Dtest=RemoveElementTest#testRemoveElementExample1
 
 # Run tests from a specific package
-mvn test -Dtest="arrays.*Test"
+mvn test -Dtest="section1_arrays_strings.*Test"
 ```
 
 ### Test Reports
@@ -374,12 +387,12 @@ mvn surefire-report:report
 Each solution file follows this template:
 
 ```java
-package arrays; // or appropriate package
+package section1_arrays_strings; // Package matches directory
 
-class TaskName {
-    public int removeElement(int[] nums, int val) {
+class ProblemName {
+    public ReturnType methodName(Parameters params) {
         // Your solution here
-        return 0;
+        return defaultValue;
     }
 }
 ```

@@ -1,4 +1,4 @@
-package arrays;
+package section1_arrays_strings;
 
 class RemoveElement {
     public int removeElement(int[] nums, int val) {
