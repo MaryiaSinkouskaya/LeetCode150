@@ -267,19 +267,8 @@ Each section has its own package following the Top Interview 150 curriculum:
 # Run all tests
 mvn test
 
-# Run tests for specific sections
-mvn test -Psection1_arrays_strings
-mvn test -Psection2_two_pointers_sliding_window
-mvn test -Psection7_linked_lists
-mvn test -Psection8_trees_basic
-mvn test -Psection21_1d_dynamic_programming
-
-# Run tests with profile
-mvn test -Prun_section1_tests
-mvn test -Prun_section2_tests
-mvn test -Prun_section7_tests
-mvn test -Prun_section8_tests
-mvn test -Prun_section21_tests
+# Clean and run tests
+mvn clean test
 ```
 
 ### Compiling
@@ -290,6 +279,16 @@ mvn compile
 
 # Clean and compile
 mvn clean compile
+```
+
+### Packaging
+
+```bash
+# Create JAR file
+mvn package
+
+# Clean and package
+mvn clean package
 ```
 
 ### Project Structure
@@ -313,74 +312,6 @@ class ProblemName {
 2. Use the correct package declaration (see package organization above)
 3. Follow the naming convention: `ProblemName.java`
 4. Add corresponding test file in the `test/` directory
-
-## Building and Testing with Maven
-
-### Prerequisites
-- Java 17 or higher
-- Maven 3.6 or higher
-
-### Basic Commands
-
-```bash
-# Compile the project
-mvn compile
-
-# Run all tests
-mvn test
-
-# Clean build artifacts
-mvn clean
-
-# Package the project
-mvn package
-```
-
-### Running Specific Test Categories
-
-```bash
-# Run only array tests
-mvn test -Prun_arrays_tests
-
-# Run only string tests
-mvn test -Prun_strings_tests
-
-# Run only linked list tests
-mvn test -Prun_linked_lists_tests
-
-# Run only tree tests
-mvn test -Prun_trees_tests
-
-# Run only dynamic programming tests
-mvn test -Prun_dp_tests
-
-# Run all tests
-mvn test -Prun_all_tests
-```
-
-### Running Individual Tests
-
-```bash
-# Run a specific test class
-mvn test -Dtest=RemoveElementTest
-
-# Run a specific test method
-mvn test -Dtest=RemoveElementTest#testRemoveElementExample1
-
-# Run tests from a specific package
-mvn test -Dtest="section1_arrays_strings.*Test"
-```
-
-### Test Reports
-
-After running tests, you can view detailed reports:
-
-```bash
-# Generate test reports
-mvn surefire-report:report
-
-# View reports in browser (open target/site/surefire-report.html)
-```
 
 ## Template Format
 
