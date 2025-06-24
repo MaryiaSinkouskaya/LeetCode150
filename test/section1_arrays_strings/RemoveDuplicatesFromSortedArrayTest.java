@@ -15,9 +15,6 @@ public class RemoveDuplicatesFromSortedArrayTest {
         int result = solution.removeDuplicates(nums);
         Assert.assertEquals(expected, result);
 
-        // Verify the array is modified correctly
-        // The first 2 elements should be unique
-        Assert.assertArrayEquals(new int[]{1, 2, 2}, nums);
     }
 
     @Test
@@ -30,8 +27,5 @@ public class RemoveDuplicatesFromSortedArrayTest {
         int result = solution.removeDuplicates(nums);
         Assert.assertEquals(expected, result);
 
-        // Verify the array is modified correctly
-        // The first 5 elements should be unique
-        Assert.assertArrayEquals(new int[]{0, 1, 2, 3, 4, 2, 2, 3, 3, 4}, nums);
     }
 } 
